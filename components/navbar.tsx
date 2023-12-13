@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 import userData from "@/userdata/data";
-
+import { AvailabilityStatus } from "./ui/Availability";
 export default function Navbar() {
   const pathname = usePathname();
   const { theme, setTheme } = useTheme();
@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <nav className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
         {/* nav header */}
         <div className="flex flex-col">
@@ -23,10 +23,8 @@ export default function Navbar() {
             <h1 className="font-semibold text-xl dark:text-gray-100">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
-              {userData.designation}
-            </p>
           </Link>
+          <AvailabilityStatus isAvailable={userData.availability} />
         </div>
         {/* navigation links for large screens*/}
         <div className="space-x-8 hidden md:block">
@@ -152,6 +150,6 @@ export default function Navbar() {
           Experience
         </Link>
       </div>
-    </div>
+    </nav>
   );
 }
