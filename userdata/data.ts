@@ -1,7 +1,8 @@
 const userData = {
   githubUsername: "",
-  name: "",
-  designation: "",
+  name: "Vishal Kumar",
+  designation: "Web Developer",
+  availability: true,
   avatarUrl: "",
   email: "",
   phone: "",
@@ -15,10 +16,8 @@ const userData = {
     },
   ],
   about: {
-    title: "",
-    description: [],
-    currentProject: "",
-    currentProjectUrl: "",
+    title: "Vishal",
+    description:"I'm a passionate web developer dedicated to crafting stunning user experiences on the front-end.",
   },
   experience: [
     {
