@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <section className="max-w-6xl  mx-auto px-4 py-10 flex space-x-12">
+      <section className="py-10 flex space-x-12">
         <div>
           <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-200">
             Hey there! I&apos;m <span>{userData.about.title}</span>...
@@ -20,7 +20,7 @@ export default function Hero() {
             alt="Vishal Kumar"
             width={150}
             height={150}
-            objectFit="cover"
+
             className="rounded-sm shadow"
           />
           {/* gradient */}
