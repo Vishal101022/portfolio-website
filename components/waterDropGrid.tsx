@@ -10,8 +10,8 @@ const WaterDropGrid = () => {
   );
 };
 
-const GRID_WIDTH = 25;
-const GRID_HEIGHT = 20;
+const GRID_WIDTH = 20;
+const GRID_HEIGHT = 15;
 
 const DotGrid = () => {
   const handleDotClick = (e: any) => {
@@ -48,7 +48,7 @@ const DotGrid = () => {
           key={`${i}-${j}`}
         >
           <div
-            className="dot-point h-2 w-2 rounded-full bg-gradient-to-b from-slate-700 to-slate-400 opacity-50 group-hover:from-green-600 group-hover:to-white"
+            className="dot-point h-3 w-3 rounded-full bg-gradient-to-b from-slate-300 to-slate-400 opacity-50 group-hover:from-green-600 group-hover:to-white"
             data-index={index}
           />
         </div>
