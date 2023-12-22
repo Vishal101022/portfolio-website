@@ -16,7 +16,7 @@ const userData = {
     },
   ],
   about: {
-    title: "Vishal",
+    title: "Make anything possible with Web Development",
     description:"I'm a passionate web developer dedicated to crafting stunning user experiences on the front-end.",
   },
   experience: [
