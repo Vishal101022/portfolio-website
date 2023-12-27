@@ -1,6 +1,5 @@
 import userData from "@/userdata/data";
 import Button from "./ui/button";
-import Image from "next/image";
 import WaterDropGrid from "./waterDropGrid";
 export default function Hero() {
   return (
