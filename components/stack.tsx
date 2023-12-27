@@ -7,7 +7,7 @@ const Stack = () => {
       <h1 className="text-4xl font-bold py-5 text-gray-800 dark:text-gray-200">
         Stack
       </h1>
-      <Marquee>
+      <Marquee gradient={true}>
         <div className="flex gap-20 justify-center">
           <div className="pl-10 pt-1">
             <Image src="/logos/html.png" alt="html" width={50} height={50} />
