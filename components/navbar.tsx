@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
-import userData from "@/userdata/data";
+import userData from "@/lib/data";
 import { AvailabilityStatus } from "./ui/Availability";
 export default function Navbar() {
   const pathname = usePathname();
