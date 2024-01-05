@@ -35,7 +35,7 @@ export const projects = [
     title: "SkillBlend-LMS",
     description:
       "A full stack web application that helps users to create and manage courses, access learning materials, track progress on their dashboard,making it a valuable tool for educators and learners.",
-    imgUrl: "/images/dark.jpg",
+    imgUrl: "/images/p1.png",
     techStack: [
       { name: "React" },
       { name: "Tailwind" },
