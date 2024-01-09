@@ -1,15 +1,14 @@
 export const userData = {
-  githubUsername: "",
   name: "Vishal Kumar",
   title: "Make anything possible with Web Development",
   description:
     "I'm a passionate web developer dedicated to crafting stunning user experiences on the front-end.",
   designation: "Web Developer",
   availability: true,
-  avatarUrl: "",
-  email: "",
+  avatarUrl: "/images/avtar.jpg",
+  email: "raivishal939@gmail.com",
   phone: "",
-  address: "",
+  address: "Ranchi Jharkhand",
 
   about: {},
   experience: [
@@ -46,5 +45,20 @@ export const projects = [
     ],
     link: "https://skill-blend-lms.vercel.app/",
     github: "https://github.com/Vishal101022/SkillBlend-LMS",
+  },
+  {
+    id: 2,
+    title: "Kathak Artist Website",
+    description:
+      "sleek and minimalistic website with a harmonious color palette",
+    imgUrl: "/images/p2.png",
+    techStack: [
+      { name: "Html" },
+      { name: "Css" },
+      { name: "JavaScript" },
+      { name: "Bootstrap" },
+    ],
+    link: "https://rahulkathak.com/",
+    github: "https://github.com/Vishal101022/",
   },
 ] as const;
