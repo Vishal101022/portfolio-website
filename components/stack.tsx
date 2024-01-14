@@ -55,9 +55,6 @@ const Stack = () => {
               height={50}
             />
           </div>
-          <div className="p-4">
-            <Image src="/logos/php.png" alt="php" width={60} height={60} />
-          </div>
           <div className="pr-10 pt-2">
             <Image src="/logos/mysql.png" alt="mysql" width={50} height={50} />
           </div>
