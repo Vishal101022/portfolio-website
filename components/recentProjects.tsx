@@ -27,9 +27,12 @@ export default function RecentProjects() {
           </div>
           <div>
             <Card
-              title="Portfolio Website"
-              description="The portfolio website you are currently viewing."
-              imgUrl="/images/p3.png"
+              title="KATHAK ARTIST WEBSITE"
+              description="sleek and minimalistic website with a harmonious color palette"
+              imgUrl="/images/p2.png"
+              link="https://rahulkathak.com/"
+              github="https://github.com/Vishal101022/Rahul-kathak-artist"
+              techStack={["Html", "CSS", "JavaScript", "Bootstrap"]}
             />
           </div>
         </div>
