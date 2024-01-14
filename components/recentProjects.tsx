@@ -25,8 +25,13 @@ export default function RecentProjects() {
               ]}
             />
           </div>
-          <div></div>
-          <div className="h-32 rounded-lg bg-gray-200"></div>
+          <div>
+            <Card
+              title="Portfolio Website"
+              description="The portfolio website you are currently viewing."
+              imgUrl="/images/p3.png"
+            />
+          </div>
         </div>
       </section>
     </>
