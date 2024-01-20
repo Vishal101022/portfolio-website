@@ -22,9 +22,9 @@ export const userData = {
   ],
   resumeUrl: "",
   socialLinks: {
-    twitter: "",
-    linkedin: "",
-    github: "",
+    twitter: "https://twitter.com/raivishal939",
+    linkedin: "https://www.linkedin.com/in/vishal101022/",
+    github: "https://github.com/Vishal101022",
   },
 } as const;
 
