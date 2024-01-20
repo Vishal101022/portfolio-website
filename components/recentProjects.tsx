@@ -3,7 +3,7 @@ import Card from "./ui/projectCard";
 export default function RecentProjects() {
   return (
     <>
-      <section className="mt-20 pt-16  lg:mt-40">
+      <section className="sm:pt-10  md:mt-20  lg:mt-40">
         <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-gray-200">
           Recent Projects
         </h1>
