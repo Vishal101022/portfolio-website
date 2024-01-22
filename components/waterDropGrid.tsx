@@ -4,7 +4,7 @@ import anime from "animejs";
 
 const WaterDropGrid = () => {
   return (
-    <div className="relative grid place-content-center px-8 py-12">
+    <div className="relative max-sm:hidden md:block grid place-content-center px-8 py-12">
       <DotGrid />
     </div>
   );
