@@ -7,7 +7,7 @@ export default function RecentProjects() {
         <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-gray-200">
           Recent Projects
         </h1>
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <Card
               title="SkillBlend-LMS"
