@@ -8,7 +8,7 @@ export const userData = {
   avatarUrl: "/images/avtar.jpg",
   email: "raivishal939@gmail.com",
   phone: "",
-  address: "Ranchi Jharkhand",
+  address: "Ranchi, India",
 
   about: {},
   experience: [
