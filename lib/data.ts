@@ -9,17 +9,6 @@ export const userData = {
   email: "raivishal939@gmail.com",
   phone: "",
   address: "Ranchi, India",
-
-  about: {},
-  experience: [
-    {
-      title: "",
-      company: "",
-      year: "",
-      companyLink: "",
-      desc: "",
-    },
-  ],
   resumeUrl: "",
   socialLinks: {
     twitter: "https://twitter.com/raivishal939",
@@ -27,6 +16,13 @@ export const userData = {
     github: "https://github.com/Vishal101022",
   },
 } as const;
+
+export const about = [
+  {
+    techStack: [{ name: "JavaScript" }, { name: "React" }],
+    summary: "",
+  },
+] as const;
 
 export const projects = [
   {
@@ -60,5 +56,15 @@ export const projects = [
     ],
     link: "https://rahulkathak.com/",
     github: "https://github.com/Vishal101022/",
+  },
+] as const;
+
+export const experience = [
+  {
+    title: "",
+    company: "",
+    year: "",
+    companyLink: "",
+    desc: "",
   },
 ] as const;
