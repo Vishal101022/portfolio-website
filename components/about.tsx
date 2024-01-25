@@ -2,6 +2,11 @@ import { userData } from "@/lib/data";
 import Image from "next/image";
 import { SlLocationPin } from "react-icons/sl";
 import { MdOutlineWorkOutline } from "react-icons/md";
+import { about } from "@/lib/data";
+import { FaGithub } from "react-icons/fa";
+import { FaTwitterSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 export default function About() {
   return (
     <>
@@ -30,17 +35,51 @@ export default function About() {
             </div>
           </div>
         </div>
-        {/* header */}
+        {/* details */}
         <div className="flex flex-col gap-2 place-self-center">
-          <h1>{userData.name}</h1>
-          <p className="flex gap-1 text-sm text-slate-500 dark:text-slate-400">
-            <MdOutlineWorkOutline />
+          {/* designation */}
+          <p className="flex gap-1 text-base font-medium text-slate-500 dark:text-slate-400">
+            <MdOutlineWorkOutline className="mt-1" />
             {userData.designation}
           </p>
-          <p className="flex gap-1 text-sm text-slate-500 dark:text-slate-400">
-            <SlLocationPin />
+          {/* address */}
+          <p className="flex gap-1 text-base text-slate-500 dark:text-slate-400">
+            <SlLocationPin className="mt-1" />
             {userData.address}
           </p>
+          {/* tech stack */}
+          <div>
+            {about.map((tech, index) => (
+              <div className="flex flex-wrap gap-1.5" key={index}>
+                {tech.techStack.map((stackItem, stackIndex) => (
+                  <span
+                    key={stackIndex}
+                    className="whitespace-nowrap rounded-sm bg-slate-200 px-2.5 py-1 text-sm text-slate-900"
+                  >
+                    {stackItem.name}
+                  </span>
+                ))}
+              </div>
+            ))}
+          </div>
+          {/* social links */}
+          <div className="flex flex-wrap gap-3 text-2xl py-2">
+            <span>
+              <Link href={userData.socialLinks.linkedin} target="_blank">
+                <FaLinkedin />
+              </Link>
+            </span>
+            <span>
+              <Link href={userData.socialLinks.github} target="_blank">
+                <FaGithub />
+              </Link>
+            </span>
+            <span>
+              <Link href={userData.socialLinks.twitter} target="_blank">
+                <FaTwitterSquare/>
+              </Link>
+            </span>
+          </div>
         </div>
       </div>
 
