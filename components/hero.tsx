@@ -6,15 +6,16 @@ export default function Hero() {
     <>
       <section className="py-10 w-full">
         <div className="py-5 px-2 overflow-hidden dark:bg-gray-900">
-          <div className="relative z-10">
+          <div className="relative z-10 max-w-fit">
             <h1 className="text-4xl  font-bold text-gray-800 dark:text-gray-200">
               {userData.title}
             </h1>
-            <p className="text-3xl  py-5 max-w-3xl">
+
+            <p className="text-2xl font-medium text-gray-600 dark:text-gray-200 py-5">
               {userData.description}
             </p>
 
-            <Button text={"More about Me"} url ={"/about"} />
+            <Button text={"More about Me"} url={"/about"} />
             <span className="mx-2"></span>
             <Button text={"Resume"} url={"#"} />
           </div>
