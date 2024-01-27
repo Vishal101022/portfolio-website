@@ -2,7 +2,7 @@ export const userData = {
   name: "Vishal Kumar",
   title: "Hi there, I’m Vishal.",
   description:
-    "I’m a passionate developer who loves building things with code.",
+    "I’m a web developer who loves building things with code.",
   designation: "Web Developer",
   availability: true,
   avatarUrl: "/images/avtar.jpg",
