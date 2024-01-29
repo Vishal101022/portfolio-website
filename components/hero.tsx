@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <>
       <section className="py-10 w-full">
-        <div className="py-5 px-2 overflow-hidden dark:bg-gray-900">
+        <div className="py-5 px-2 overflow-hidden">
           <div className="relative z-10 max-w-fit">
-            <h1 className="text-4xl  font-bold text-gray-800 dark:text-gray-200">
+            <h1 className="text-4xl  font-bold text-gray-900 dark:text-gray-200">
               {userData.title}
             </h1>
 
