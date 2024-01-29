@@ -4,7 +4,7 @@ import anime from "animejs";
 
 const WaterDropGrid = () => {
   return (
-    <div className="relative max-sm:hidden md:block grid place-content-center px-8 py-12">
+    <div className="relative max-sm:hidden md:block grid place-content-center px-8 py-12 opacity-70 dark:opacity-50">
       <DotGrid />
     </div>
   );
@@ -43,12 +43,12 @@ const DotGrid = () => {
     for (let j = 0; j < GRID_HEIGHT; j++) {
       dots.push(
         <div
-          className="group rounded-full p-2 transition-colors hover:bg-green-300"
+          className="group rounded-full p-2 transition-colors hover:bg-rose-300"
           data-index={index}
           key={`${i}-${j}`}
         >
           <div
-            className="dot-point h-3 w-3 rounded-full bg-gradient-to-b from-slate-300 to-slate-400 opacity-50 group-hover:from-green-600 group-hover:to-white"
+            className="dot-point h-3 w-3 rounded-full bg-gradient-to-b from-slate-300 to-slate-400 opacity-50 group-hover:from-rose-600 group-hover:to-white"
             data-index={index}
           />
         </div>
