@@ -1,11 +1,10 @@
 "use client";
 import Image from "next/image";
-
+import Divider from "./ui/divider";
 export default function Footer() {
   return (
-    <div className="dark:bg-gray-900">
-      <div className="h-0.5 w-full bg-zinc-300 dark:bg-gray-700"></div>
-
+    <div >
+      <Divider />
       <p className="flex flex-row py-5 text-gray-400">
         <span>
           Built in
