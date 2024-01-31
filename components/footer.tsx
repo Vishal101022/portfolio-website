@@ -2,9 +2,11 @@
 import Image from "next/image";
 import Divider from "./ui/divider";
 export default function Footer() {
+
   return (
     <div >
-      <Divider />
+      <Divider margin={2} />
+    
       <p className="flex flex-row py-5 text-gray-400">
         <span>
           Built in
