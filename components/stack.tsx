@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Stack = () => {
   return (
-    <section className="py-10 ">
-      <h1 className="text-4xl font-bold py-5 text-gray-800 dark:text-gray-200">
+    <section className=" my-2 py-10 ">
+      <h1 className="text-4xl font-bold py-5 text-gray-800 dark:text-white">
         Stack
       </h1>
-      <Marquee gradient={true}>
+      <Marquee gradient={false}>
         <div className="flex gap-20 justify-center">
           <div className="pl-10 pt-1">
             <Image src="/logos/html.png" alt="html" width={50} height={50} />
@@ -15,7 +15,7 @@ const Stack = () => {
           <div>
             <Image src="/logos/css.png" alt="css" width={60} height={60} />
           </div>
-          <div className="p-2">
+          <div className="p-2 ">
             <Image
               src="/logos/js.png"
               alt="javaScript"
