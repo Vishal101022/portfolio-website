@@ -13,7 +13,7 @@ export default function Navbar() {
         {/* nav header */}
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
+            <h1 className="font-semibold text-xl text-gray-800 dark:text-gray-300">
               {userData.name}
             </h1>
           </Link>
@@ -26,7 +26,7 @@ export default function Navbar() {
             href="/about"
             className={`text-base  ${
               pathname === "/about"
-                ? "text-gray-800 font-bold dark:text-gray-400"
+                ? "text-rose-500 font-bold"
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
@@ -37,7 +37,7 @@ export default function Navbar() {
             href="/projects"
             className={`text-base  ${
               pathname === "/projects"
-                ? "text-gray-800 font-bold dark:text-gray-400"
+                ? "text-rose-500 font-bold "
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
@@ -48,7 +48,7 @@ export default function Navbar() {
             href="/experience"
             className={`text-base  ${
               pathname === "/experience"
-                ? "text-gray-800 font-bold dark:text-gray-400"
+                ? "text-rose-500 font-bold"
                 : "text-gray-600 dark:text-gray-300 font-normal "
             }`}
           >
