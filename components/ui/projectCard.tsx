@@ -59,7 +59,7 @@ const Card = ({
               {techStack.map((tech, index) => (
                 <span
                   key={index}
-                  className="whitespace-nowrap rounded-sm font-light italic bg-slate-100 px-2.5 py-0.5 text-xs text:grey-500 dark:bg-zinc-800 dark:ring-[0.5px] dark:ring-zinc-500 dark:text-white"
+                  className="whitespace-nowrap rounded-sm font-light italic bg-slate-100 px-1.5 py-0.5 text-xs text:grey-600 dark:bg-zinc-800 dark:ring-[0.5px] dark:ring-zinc-500 dark:text-white"
                 >
                   {tech}
                 </span>
