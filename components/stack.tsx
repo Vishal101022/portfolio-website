@@ -37,6 +37,7 @@ const Stack = () => {
               alt="nextjs"
               width={50}
               height={50}
+              className="dark:bg-white rounded-full"
             />
           </div>
           <div className="p-2">
