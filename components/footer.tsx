@@ -4,7 +4,7 @@ import Divider from "./ui/divider";
 export default function Footer() {
 
   return (
-    <div >
+    <div className="py-5">
       <Divider margin={2} />
     
       <p className="flex flex-row py-5 text-gray-400">
@@ -19,14 +19,14 @@ export default function Footer() {
               className="mx-1 inline"
             />
           </a>
-          <span className="border-l-2 border-zinc-300 pl-2">Built with</span>
+          <span className="border-l-2 border-zinc-300 px-1">Built with</span>
           <a href="https://nextjs.org" target="__blank">
             <Image
               src="/logos/nextjs.svg"
               alt="Next.js Logo"
               width={25}
               height={25}
-              className=" mx-1 inline"
+              className=" mx-1 inline bg-white rounded-full" 
             />
           </a>
           <a href="https://tailwindcss.com" target="__blank">
