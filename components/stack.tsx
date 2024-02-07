@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Stack = () => {
   return (
-    <section className="py-8 ">
+    <section className="py-10 ">
       <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-white">
         Stack
       </h1>
