@@ -11,7 +11,7 @@ export default function Hero() {
               {userData.title}
             </h1>
 
-            <p className="text-2xl font-bold text-gray-600 dark:text-gray-200 py-5">
+            <p className="text-2xl font-bold text-gray-600 dark:text-gray-300 py-5">
               {userData.description}
             </p>
 

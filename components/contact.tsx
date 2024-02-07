@@ -10,7 +10,7 @@ function Contact() {
     <>
       <section className="my-10">
         {/* contact card */}
-        <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-white">
+        <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-gray-200">
           Let&apos;s Build Something Together
         </h1>
         <div className="border border-rose-200  rounded p-6 my-4 w-full  dark:border-rose-600 bg-gray-50 dark:bg-zinc-800">
