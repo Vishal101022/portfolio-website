@@ -3,10 +3,20 @@ import Image from "next/image";
 
 const Stack = () => {
   return (
-    <section className=" my-2 py-10 ">
-      <h1 className="text-4xl font-bold py-5 text-gray-800 dark:text-white">
+    <section className="py-8 ">
+      <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-white">
         Stack
       </h1>
+      <p className="text-md pb-10 text-gray-600 dark:text-gray-300">
+        Apart from the courses included in my degree, I&apos;ve taken a number
+        of online courses
+        <br />
+        such as {" "}
+        <span className="font-bold dark:text-gray-300/50">
+          JavaScript Essential Training, Responsive Web Design and React - The
+          complete guide.
+        </span>
+      </p>
       <Marquee gradient={false}>
         <div className="flex gap-20 justify-center">
           <div className="pl-10 pt-1">
