@@ -8,8 +8,11 @@ function Contact() {
     "https://wa.me/7004575424?text=Hi Vishal, Please send your resume to me.";
   return (
     <>
-      <section className="my-10 ">
+      <section className="my-10">
         {/* contact card */}
+        <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-white">
+          Let&apos;s Build Something Together
+        </h1>
         <div className="border border-rose-200  rounded p-6 my-4 w-full  dark:border-rose-600 bg-gray-50 dark:bg-zinc-800">
           <h5 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
             Drop your message
@@ -23,11 +26,12 @@ function Contact() {
             </div>
           </Link>
           {/* divider */}
-          <Divider margin={8}/>
+          <Divider margin={8} />
           {/* email */}
           <div>
             <p className="my-1 text-gray-800 dark:text-gray-200">
-              Shoot me an email if you want to connect! You can also find me on
+              Feel free to reach out if you&apos;re loking for a developer, have
+              a question or just want to connect. You can also find me on
               <Link
                 href={userData.socialLinks.linkedin}
                 target="_blank"
