@@ -1,9 +1,10 @@
 import Card from "./ui/projectCard";
+import Button from "./ui/button";
 
 export default function RecentProjects() {
   return (
     <>
-      <section className="py-10"> 
+      <section className="py-10">
         <div className=" sm:pt-10  md:mt-24  lg:mt-30">
           <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-gray-200">
             Recent Projects
@@ -36,6 +37,10 @@ export default function RecentProjects() {
                 techStack={["Html", "CSS", "JavaScript", "Bootstrap"]}
               />
             </div>
+          </div>
+          <div className="flex justify-center pt-5">
+            {/* button */}
+            <Button text={"View All Projects"} url={"/projects"} />
           </div>
         </div>
       </section>
