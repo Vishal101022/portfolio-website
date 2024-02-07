@@ -4,7 +4,7 @@ import WaterDropGrid from "./waterDropGrid";
 export default function Hero() {
   return (
     <>
-      <section className="py-10">
+      <section className="md:py-10 sm:py-1">
         <div className="py-5 px-2 overflow-hidden">
           <div className="relative z-10 max-w-fit">
             <h1 className="text-4xl  font-extrabold text-gray-900 dark:text-gray-200">
