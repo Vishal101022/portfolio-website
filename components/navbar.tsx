@@ -8,7 +8,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="py-10 md:py-20">
+    <nav className="sticky top-0 z-50 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
         {/* nav header */}
         <div className="flex flex-col">
