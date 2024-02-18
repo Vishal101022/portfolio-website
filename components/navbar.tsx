@@ -8,7 +8,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="py-10 md:py-20">
+    <nav className="py-10 md:py-20 ">
       <div className="flex  md:flex-row justify-between items-center">
         {/* nav header */}
         <div className="flex flex-col">
@@ -20,7 +20,7 @@ export default function Navbar() {
           {/* <AvailabilityStatus isAvailable={userData.availability} /> */}
         </div>
         {/* navigation links for large screens*/}
-        <div className="space-x-8 hidden md:block">
+        <div className="space-x-8 hidden md:block border-2 shadow-sm shadow-zinc-800/5 border-zinc-900/5 dark:border-white/5 rounded-lg px-4 py-1.5">
           {/* about */}
           <Link
             href="/about"
