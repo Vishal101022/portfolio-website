@@ -19,7 +19,7 @@ export default function ThemeSwitch() {
         onClick={handleToggleBtn}
         aria-label="Toggle Dark Mode"
         type="button"
-        className="rounded-full bg-white/90  px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5  dark:bg-zinc-900/90 dark:ring-rose-500/50 dark:hover:ring-white/20"
+        className="rounded-full bg-white/90  px-3 py-2 shadow-sm shadow-zinc-800/5 ring-1 ring-zinc-900/5  dark:bg-zinc-900/90 dark:ring-rose-500/50 dark:hover:ring-white/20"
       >
         {!mounted && (
           <Image
