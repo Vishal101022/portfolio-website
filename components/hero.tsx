@@ -9,6 +9,9 @@ export default function Hero() {
           <div className="relative z-10 max-w-fit">
             <h1 className="text-4xl  font-extrabold text-gray-900 dark:text-gray-200">
               {userData.title}
+              <span className="px-1 text-transparent bg-clip-text bg-gradient-to-r from-rose-500  to-pink-500 ">
+                {userData.firstName}
+              </span>
             </h1>
 
             <p className="text-2xl font-bold text-gray-600 dark:text-gray-300 py-5">
