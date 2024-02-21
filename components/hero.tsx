@@ -26,7 +26,6 @@ export default function Hero() {
 
             <Button text={"More about Me"} url={"/about"} />
             <span className="mx-2"></span>
-            <Button text={"Resume"} url={"#"} />
           </div>
           <div className="absolute z-0 top-[140px] right-[21%]">
             <WaterDropGrid />
