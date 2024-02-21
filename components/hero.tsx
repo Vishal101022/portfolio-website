@@ -1,6 +1,7 @@
 import { userData } from "@/lib/data";
 import Button from "./ui/button";
 import WaterDropGrid from "./waterDropGrid";
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 export default function Hero() {
   return (
     <>
@@ -15,7 +16,12 @@ export default function Hero() {
             </h1>
 
             <p className="text-2xl font-bold text-gray-600 dark:text-gray-300 py-5">
-              {userData.description}
+              <RoughNotationGroup show={true}>
+                I’m a{" "}
+                <RoughNotation type="underline">web developer</RoughNotation>{" "}
+                who loves building things with{" "}
+                <RoughNotation type="underline">code</RoughNotation>.
+              </RoughNotationGroup>
             </p>
 
             <Button text={"More about Me"} url={"/about"} />
