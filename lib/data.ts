@@ -3,7 +3,6 @@ export const userData = {
   handle: "@Vishal101022",
   firstName: "Vishal",
   title: "Hi there, I’m",
-  description: "I’m a web developer who loves building things with code.",
   designation: "Web Developer",
   availability: true,
   avatarUrl: "/images/avtar.jpg",
