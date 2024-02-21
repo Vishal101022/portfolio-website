@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Roboto_Flex } from "next/font/google";
+import { Inter, Roboto_Flex } from "next/font/google";
 import "./globals.css";
 import { Provider } from "@/components/themeProvider";
 
-const roboto = Roboto_Flex({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vishal Kumar",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={roboto.className}>
+      <body className={inter.className}>
         <Provider>{children}</Provider>
       </body>
     </html>
