@@ -11,7 +11,7 @@ const Stack = () => {
         Apart from the courses included in my degree, I&apos;ve taken a number
         of online courses
         <br />
-        such as {" "}
+        such as{" "}
         <span className="font-bold dark:text-gray-300/50">
           JavaScript Essential Training, Responsive Web Design and React - The
           complete guide.
@@ -20,10 +20,22 @@ const Stack = () => {
       <Marquee gradient={false}>
         <div className="flex gap-20 justify-center">
           <div className="pl-10 pt-1">
-            <Image src="/logos/html.png" alt="html" width={50} height={50} />
+            <Image
+              src="/logos/html.png"
+              alt="html"
+              width={50}
+              height={50}
+              className="w-auto h-auto"
+            />
           </div>
           <div>
-            <Image src="/logos/css.png" alt="css" width={60} height={60} />
+            <Image
+              src="/logos/css.png"
+              alt="css"
+              width={60}
+              height={60}
+              className="w-auto h-auto"
+            />
           </div>
           <div className="p-2 ">
             <Image
@@ -31,6 +43,7 @@ const Stack = () => {
               alt="javaScript"
               width={50}
               height={50}
+              className="w-auto h-auto"
             />
           </div>
           <div className="p-3">
@@ -39,14 +52,15 @@ const Stack = () => {
               alt="reactjs"
               width={50}
               height={50}
+              className="w-auto h-auto"
             />
           </div>
           <div className="p-2">
             <Image
               src="/logos/nextjs.svg"
               alt="nextjs"
-              width={50}
-              height={50}
+              width={60}
+              height={60}
               className="dark:bg-white rounded-full"
             />
           </div>
@@ -56,6 +70,7 @@ const Stack = () => {
               alt="tailwind"
               width={50}
               height={50}
+              className="w-auto h-auto"
             />
           </div>
           <div className="p-2">
@@ -64,10 +79,17 @@ const Stack = () => {
               alt="framer-motion"
               width={50}
               height={50}
+              className="w-auto h-auto"
             />
           </div>
           <div className="pr-10 pt-2">
-            <Image src="/logos/mysql.png" alt="mysql" width={50} height={50} />
+            <Image
+              src="/logos/mysql.png"
+              alt="mysql"
+              width={50}
+              height={50}
+              className="w-auto h-auto"
+            />
           </div>
         </div>
       </Marquee>
