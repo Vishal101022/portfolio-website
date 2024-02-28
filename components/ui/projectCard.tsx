@@ -48,7 +48,6 @@ const Card = ({
                 width={300}
                 height={300}
                 priority={false}
-                objectFit="cover"
                 className="w-96 h-50  rounded-md"
               />
             </div>
