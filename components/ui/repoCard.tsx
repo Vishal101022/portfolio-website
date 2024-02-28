@@ -16,6 +16,7 @@ export default function RepoCard({ latestRepo }: { latestRepo: RepoData }) {
       </p>
       <Link
         href={latestRepo.html_url}
+        target="_blank"
         className="font-semibold group flex flex-row space-x-2 w-full items-center"
       >
         <p>View Repository </p>
