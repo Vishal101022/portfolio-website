@@ -47,12 +47,16 @@ const Card = ({
                 alt={title}
                 width={300}
                 height={300}
-                className="w-96 h-50 object-cover rounded-md"
+                priority={false}
+                objectFit="cover"
+                className="w-96 h-50  rounded-md"
               />
             </div>
             {/* description */}
             <Link href={link} target="_blank">
-              <h3 className="mt-0.5 text-sm  text-gray-700 dark:text-white">{description}</h3>
+              <h3 className="mt-0.5 text-sm  text-gray-700 dark:text-white">
+                {description}
+              </h3>
             </Link>
             {/* techStack */}
             <div className="mt-4 flex flex-wrap gap-2">

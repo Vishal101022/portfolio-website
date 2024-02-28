@@ -2,11 +2,10 @@
 import Image from "next/image";
 import Divider from "./ui/divider";
 export default function Footer() {
-
   return (
     <div className="py-5">
       <Divider margin={2} />
-    
+
       <p className="flex flex-row py-5 text-gray-400">
         <span>
           Built in
@@ -14,8 +13,10 @@ export default function Footer() {
             <Image
               src="/logos/vscode.svg"
               alt="Visual Studio Code Logo"
-              width={25}
-              height={25}
+              width={0}
+              height={0}
+              priority={false}
+              style={{ width: "25px", height: "auto" }}
               className="mx-1 inline"
             />
           </a>
@@ -24,17 +25,21 @@ export default function Footer() {
             <Image
               src="/logos/nextjs.svg"
               alt="Next.js Logo"
-              width={25}
-              height={25}
-              className=" mx-1 inline bg-white rounded-full" 
+              width={0}
+              height={0}
+              priority={false}
+              style={{ width: "25px", height: "auto" }}
+              className=" mx-1 inline bg-white rounded-full"
             />
           </a>
           <a href="https://tailwindcss.com" target="__blank">
             <Image
               src="/logos/tailwind.svg"
               alt="Tailwind CSS Logo"
-              width={25}
-              height={25}
+              width={0}
+              height={0}
+              priority={false}
+              style={{ width: "25px", height: "auto" }}
               className="mx-1 inline"
             />
           </a>
