@@ -18,79 +18,81 @@ const Stack = () => {
         </span>
       </p>
       <Marquee gradient={false}>
-        <div className="flex gap-20 justify-center">
-          <div className="pl-10 pt-1">
-            <Image
-              src="/logos/html.png"
-              alt="html"
-              width={50}
-              height={50}
-              className="w-auto h-auto"
-            />
-          </div>
-          <div>
-            <Image
-              src="/logos/css.png"
-              alt="css"
-              width={60}
-              height={60}
-              className="w-auto h-auto"
-            />
-          </div>
-          <div className="p-2 ">
-            <Image
-              src="/logos/js.png"
-              alt="javaScript"
-              width={50}
-              height={50}
-              className="w-auto h-auto"
-            />
-          </div>
-          <div className="p-3">
-            <Image
-              src="/logos/react.png"
-              alt="reactjs"
-              width={50}
-              height={50}
-              className="w-auto h-auto"
-            />
-          </div>
-          <div className="p-2">
-            <Image
-              src="/logos/nextjs.svg"
-              alt="nextjs"
-              width={60}
-              height={60}
-              className="dark:bg-white rounded-full"
-            />
-          </div>
-          <div className="p-2">
-            <Image
-              src="/logos/tailwind.png"
-              alt="tailwind"
-              width={50}
-              height={50}
-              className="w-auto h-auto"
-            />
-          </div>
-          <div className="p-2">
-            <Image
-              src="/logos/framer.png"
-              alt="framer-motion"
-              width={50}
-              height={50}
-              className="w-auto h-auto"
-            />
-          </div>
-          <div className="pr-10 pt-2">
-            <Image
-              src="/logos/mysql.png"
-              alt="mysql"
-              width={50}
-              height={50}
-              className="w-auto h-auto"
-            />
-          </div>
+        <div>
+          <ul className="flex gap-20 justify-center">
+            <li>
+              <Image
+                src="/logos/html.png"
+                alt="html"
+                width={50}
+                height={50}
+                className="w-auto h-auto"
+              />
+            </li>
+            <li>
+              <Image
+                src="/logos/css.png"
+                alt="css"
+                width={60}
+                height={60}
+                className="w-auto h-auto"
+              />
+            </li>
+            <li>
+              <Image
+                src="/logos/js.png"
+                alt="javaScript"
+                width={50}
+                height={50}
+                className="w-auto h-auto"
+              />
+            </li>
+            <li>
+              <Image
+                src="/logos/react.png"
+                alt="reactjs"
+                width={50}
+                height={50}
+                className="w-auto h-auto"
+              />
+            </li>
+            <li>
+              <Image
+                src="/logos/nextjs.svg"
+                alt="nextjs"
+                width={60}
+                height={60}
+                className="dark:bg-white rounded-full"
+              />
+            </li>
+            <li>
+              <Image
+                src="/logos/tailwind.png"
+                alt="tailwind"
+                width={50}
+                height={50}
+                className="w-auto h-auto"
+              />
+            </li>
+            <li>
+              <Image
+                src="/logos/framer.png"
+                alt="framer-motion"
+                width={50}
+                height={50}
+                className="w-auto h-auto"
+              />
+            </li>
+            <li className="pr-10 ">
+              <Image
+                src="/logos/mysql.png"
+                alt="mysql"
+                width={50}
+                height={50}
+                className="w-auto h-auto"
+              />
+            </li>
+          </ul>
         </div>
       </Marquee>
     </section>
