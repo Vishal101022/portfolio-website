@@ -8,7 +8,7 @@ export default function Hero() {
       <section className="md:py-10 sm:py-1">
         <div className="py-5 px-2 overflow-hidden">
           <div className="relative z-10 max-w-fit">
-            <h1 className="text-4xl  font-extrabold text-gray-900 dark:text-gray-200">
+            <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-gray-200">
               {userData.title}
               <span className="px-1 text-transparent bg-clip-text bg-gradient-to-r from-rose-500  to-pink-500 ">
                 {userData.firstName}

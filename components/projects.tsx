@@ -5,10 +5,10 @@ import { projects } from "@/lib/data";
 export default function Projects() {
   return (
     <section>
-      <h1 className="text-4xl font-bold  text-gray-800 dark:text-gray-200">
+      <h1 className="text-2xl md:text-4xl font-semibold  text-gray-800 dark:text-gray-200">
         What I&apos;ve been working on
       </h1>
-      <p className="py-5 text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg md:text-xl py-5  text-gray-600 dark:text-gray-200">
         I like to stay busy and always have a project in the works.
         <br />
         Take a look at some of the applications I have worked on.

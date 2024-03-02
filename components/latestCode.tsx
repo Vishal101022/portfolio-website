@@ -33,7 +33,7 @@ export default function LatestCode() {
   return (
     <>
       <section className="py-10">
-        <h1 className="text-4xl font-bold pb-5 text-gray-800 dark:text-gray-200">
+        <h1 className="text-2xl md:text-4xl font-semibold  pb-5 text-gray-800 dark:text-gray-200">
           Latest Code
         </h1>
         {isLoading ? (
