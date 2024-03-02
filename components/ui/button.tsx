@@ -5,9 +5,10 @@ export default function Button({ text, url }: { text: string; url: string }) {
     <Link href={url}>
       <button
         type="button"
-        className="py-3 px-4 inline-flex justify-center items-center gap-2 backdrop-blur transition rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none text-sm dark:bg-zinc-900 dark:hover:border-white/20 dark:border-rose-500 dark:text-rose-500 "
+        className="px-5 py-2.5 relative rounded group overflow-hidden font-medium bg-rose-100 text-rose-600 inline-block"
       >
-        {text}
+        <span className="absolute top-0 left-0 flex h-full w-0 mb-0 transition-all duration-300 ease-out  bg-rose-600 group-hover:w-full opacity-90"></span>
+        <span className="relative group-hover:text-white">{text}</span>
       </button>
     </Link>
   );
