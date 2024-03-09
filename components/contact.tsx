@@ -13,7 +13,7 @@ function Contact() {
         <h1 className="text-2xl md:text-4xl font-semibold pb-5 text-gray-800 dark:text-gray-200">
           Let&apos;s Build Something Together
         </h1>
-        <div className="border border-rose-200  rounded p-6 my-4 w-full  dark:border-rose-600 bg-gray-50 dark:bg-zinc-800">
+        <div className=" rounded p-6 my-4 w-full  ring-1 ring-rose-200 dark:ring-rose-500/40  bg-gray-50 dark:bg-zinc-800">
           <h5 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
             Drop your message
           </h5>
