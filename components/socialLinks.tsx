@@ -9,7 +9,7 @@ interface SocialLinkProps {
 
 const SocialLink: React.FC<SocialLinkProps> = ({ href, icon: Icon }) => (
   <span>
-    <Link href={href} target="_blank">
+    <Link href={href} target="_blank" className="hover:text-rose-500">
       <Icon />
     </Link>
   </span>
