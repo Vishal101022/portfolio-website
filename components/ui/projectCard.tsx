@@ -2,6 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { ImGithub } from "react-icons/im";
+
+interface ProjectCardProps {
+  title: string;
+  description: string;
+  imgUrl: string;
+  techStack: string[];
+  link: string;
+  github: string;
+}
+
 const Card = ({
   title,
   description,
@@ -9,14 +19,7 @@ const Card = ({
   techStack,
   link,
   github,
-}: {
-  title: string;
-  description: string;
-  imgUrl: string;
-  techStack: string[];
-  link: string;
-  github: string;
-}) => {
+}: ProjectCardProps) => {
   return (
     <>
       <article>
@@ -53,7 +56,7 @@ const Card = ({
             </div>
             {/* description */}
             <Link href={link} target="_blank">
-              <h3 className="mt-0.5 text-sm  text-gray-700 dark:text-white">
+              <h3 className="text-wrap mt-0.5 text-sm  text-gray-700 dark:text-white">
                 {description}
               </h3>
             </Link>
