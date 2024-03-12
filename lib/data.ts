@@ -1,3 +1,5 @@
+import { id_ID } from "@faker-js/faker";
+
 export const userData = {
   name: "Vishal Kumar",
   handle: "@Vishal101022",
@@ -49,10 +51,24 @@ export const projects = [
 
 export const experience = [
   {
-    title: "",
-    company: "",
-    year: "",
-    companyLink: "",
-    desc: "",
+    title: "Internship",
+    company: "HashedBit Innovations",
+    year: "2024",
+    companyLink: "https://hashedbit.com/",
+    desc: "Writing API in ExpressJS and Creating UI in ReactJS",
+  },
+  {
+    title: "MCA",
+    company: "Dr.Shyama Prasad Mukherjee University",
+    year: "2023",
+    companyLink: "https://dspmuranchi.ac.in/",
+    desc: "Computer Application",
+  },
+  {
+    title: "Graduation",
+    company: "Ranchi University",
+    year: "2020",
+    companyLink: "https://www.ranchiuniversity.ac.in/",
+    desc: "Computer Science",
   },
 ] as const;
