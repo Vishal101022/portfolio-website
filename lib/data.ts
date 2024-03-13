@@ -1,5 +1,3 @@
-import { id_ID } from "@faker-js/faker";
-
 export const userData = {
   name: "Vishal Kumar",
   handle: "@Vishal101022",
