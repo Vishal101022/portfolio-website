@@ -5,7 +5,7 @@ export default function RecentProjects() {
   return (
     <>
       <section className="py-10 ">
-        <div className="pt-0 sm:pt-40">
+        <div>
           <h1 className="text-2xl md:text-4xl font-semibold  pb-5 text-gray-800 dark:text-gray-200">
             Recent Projects
           </h1>
