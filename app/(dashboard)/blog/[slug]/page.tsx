@@ -60,9 +60,12 @@ function PostPage(props: any) {
   }
 
   return (
-    <div>
-      <h1>{post.data.title}</h1>
-      <Markdown>{post.content}</Markdown>
+    <div className="max-w-2xl mx-auto">
+      <h1 className="font-mono text-2xl sm:text-3xl font-medium">{post.data.title}</h1>
+      <p className="font-mono text-base text-gray-600 dark:text-gray-400">{post.data.date}</p>
+      <article className="prose dark:prose-invert">
+        <Markdown>{post.content}</Markdown>
+      </article>
     </div>
   );
 }
