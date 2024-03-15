@@ -59,45 +59,65 @@ export default function About() {
         {/* about me article */}
         <div className="relative">
           <article>
-            <p className=" text-base font-medium text-slate-500 dark:text-slate-400 py-4">
-              Hello world! I&apos;m Vishal, a code-loving introvert.
-              <br />I first dipped my toes into{" "}
+            <p className=" text-base font-medium text-slate-500 dark:text-slate-300/70 py-4">
+              Hey there! I&apos;m Vishal 👋, and I&apos;m all about coding and
+              exploring the tech world 💻🌐.
+              <br />
+              <br />
+              My journey into programming began in{" "}
               <span className="underline decoration-sky-500">
-                programming back in 9th grade
+                9th grade
               </span>{" "}
-              with Java. from childhood, I&apos;ve been fascinated by tech and
-              always wanted to play around with it. My dad got me a computer and
-              well, I literally screwed it up.
+              when I first experimented with Java. Ever since I was a kid,
+              I&apos;ve been fascinated by all things tech – I was that kid who
+              couldn&apos;t resist messing around with gadgets and computers.
+              Sure, I had a few mishaps along the way (thanks, Dad, for the
+              patience!), but those early experiences fueled my curiosity and
+              drive to learn more.
               <br />
-              <br />I decided I wanted to pursue a graduation degree in computer
-              science. There, I studied C++, DSA, Python, and a bunch of
-              programming languages but became a master of none. Alongside my
-              studies, I also took on freelance work. In 2020, the Corona
-              pandemic disrupted my entire year. At the end of the year,{" "}
+              <br />I decided to pursue a{" "}
               <span className="underline decoration-sky-500">
-                I decided to pursue MCA
-              </span>
+                degree in computer science
+              </span>{" "}
+              , where I got to dive into languages like C++, DSA, and Python. I
+              won&apos;t lie – mastering them wasn&apos;t a walk in the park.
+              But hey, I picked up some valuable skills, especially through my
+              freelance gigs on the side.
               <br />
               <br />
-              At the beginning of the year, I was learning DSA to become a{" "}
+              Then came 2020 – the year everything turned upside down with the
+              Corona pandemic. It made me rethink my path, leading me to pursue
+              an{" "}
+              <span className="underline decoration-sky-500">MCA degree</span>.
+              {""}
+              However, my initial aspirations in{" "}
               <span className="underline decoration-wavy decoration-red-500">
-                software engineer{" "}
-              </span>
-              , but I really failed to achieve my goal because I did not enjoy
-              DSA much. During the summer vacation, I took the FreeCodeCamp{" "}
-              <span className="underline decoration-sky-500">
-                Responsive Web Design course
-              </span>
-              . I enjoyed learning it, and that&apos;s when I developed an{" "}
-              <span className="underline decoration-green-500">
-                interest in web development
+                software engineering
               </span>{" "}
-              because I saw great things happening on the screen.
+              hit a roadblock when I found DSA less enjoyable.
               <br />
               <br />
-              Since then, I&apos;ve been honing my skills and learning
-              JavaScript. I&apos;m seeking a full-time role where I can help a
-              company achieve their goals.
+              During a summer break, I decided to try something new and signed
+              up for the FreeCodeCamp{" "}
+              <span className="underline decoration-sky-500">
+                Responsive Web Design course.
+              </span>{" "}
+              And guess what? It clicked! I fell head over heels for{" "}
+              <span className="underline decoration-green-500">
+                web development
+              </span>{" "}
+              , and there&apos;s just something magical about seeing your
+              creations come to life on the screen.
+              <br />
+              <br />
+              Since then, I&apos;ve been all in,{" "}
+              <span className="underline decoration-green-500">
+                focusing on JavaScript
+              </span>{" "}
+              and honing my skills. Now, I&apos;m pumped to bring my expertise
+              to the table and help a forward-thinking company crush their goals
+              in a full-time role. Let&apos;s make some digital magic happen!
+              🚀💫
             </p>
           </article>
         </div>
