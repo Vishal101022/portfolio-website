@@ -89,7 +89,7 @@ export default function About() {
               Corona pandemic. It made me rethink my path, leading me to pursue
               an{" "}
               <span className="underline decoration-sky-500">MCA degree</span>.
-              {""}
+              {" "}
               However, my initial aspirations in{" "}
               <span className="underline decoration-wavy decoration-red-500">
                 software engineering
