@@ -12,7 +12,7 @@ import {
 const LOGOS = [
   {
     logo: (
-      <TbBrandHtml5 className="text-6xl text-slate-800 dark:text-slate-300" />
+      <TbBrandHtml5 className="text-5xl text-slate-800 dark:text-slate-300" />
     ),
   },
   {
@@ -20,61 +20,61 @@ const LOGOS = [
       <TbBrandCss3
         width={30}
         height={30}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
   {
     logo: (
       <TbBrandJavascript
-        width={24}
-        height={24}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        width={25}
+        height={25}
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
   {
     logo: (
       <TbBrandReact
-        width={24}
-        height={24}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        width={25}
+        height={25}
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
   {
     logo: (
       <TbBrandNextjs
-        width={24}
-        height={24}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        width={25}
+        height={25}
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
   {
     logo: (
       <TbBrandMysql
-        width={24}
-        height={24}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        width={25}
+        height={25}
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
   {
     logo: (
       <TbBrandTailwind
-        width={24}
-        height={24}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        width={25}
+        height={25}
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
   {
     logo: (
       <TbBrandFramerMotion
-        width={24}
-        height={24}
-        className="text-6xl text-slate-800 dark:text-slate-300"
+        width={25}
+        height={25}
+        className="text-5xl text-slate-800 dark:text-slate-300"
       />
     ),
   },
