@@ -1,6 +1,4 @@
-import Marquee from "react-fast-marquee";
-import Image from "next/image";
-
+import InfiniteSlider from "./infiniteSlider";
 const Stack = () => {
   return (
     <section className="py-10 ">
@@ -17,75 +15,9 @@ const Stack = () => {
           complete guide.
         </span>
       </p>
-      <Marquee gradient={false}>
-        <div>
-          <ul className="flex gap-20 justify-center">
-            <li>
-              <Image
-                src="/logos/html.png"
-                alt="html"
-                width={50}
-                height={50}
-                className="w-auto h-auto"
-              />
-            </li>
-            <li>
-              <Image
-                src="/logos/css.png"
-                alt="css"
-                width={60}
-                height={60}
-                className="w-auto h-auto"
-              />
-            </li>
-            <li>
-              <Image
-                src="/logos/js.png"
-                alt="javaScript"
-                width={50}
-                height={50}
-                className="w-auto h-auto"
-              />
-            </li>
-            <li>
-              <Image
-                src="/logos/react.png"
-                alt="reactjs"
-                width={50}
-                height={50}
-                className="w-auto h-auto"
-              />
-            </li>
-            <li>
-              <Image
-                src="/logos/nextjs.svg"
-                alt="nextjs"
-                width={60}
-                height={60}
-                className="dark:bg-white rounded-full"
-              />
-            </li>
-            <li>
-              <Image
-                src="/logos/tailwind.png"
-                alt="tailwind"
-                width={50}
-                height={50}
-                className="w-auto h-auto"
-              />
-            </li>
-            <li className="pr-10 ">
-              <Image
-                src="/logos/mysql.png"
-                alt="mysql"
-                width={50}
-                height={50}
-                className="w-auto h-auto"
-              />
-            </li>
-          </ul>
-        </div>
-      </Marquee>
+      <div>
+        <InfiniteSlider />
+      </div>
     </section>
   );
 };
