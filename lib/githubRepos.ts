@@ -24,7 +24,7 @@ async function GetRepos(): Promise<Repository[]> {
   });
 
   const repos: Repository[] = response.data
-    .map((repo: any) => ({
+    .map((repo: Repository) => ({
       id: repo.id,
       name: repo.name,
       description: repo.description,
