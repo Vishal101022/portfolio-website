@@ -18,7 +18,7 @@ that prioritize content.
 
 ### The website is divided into 4 pages:
 
- ![Folder Structure](/public/blogImg/folder_stuc.PNG)
+ ![folder_stuc](https://github.com/Vishal101022/portfolio-website/assets/13450751/962050d1-6146-432c-ab9a-e8ae0be4ed2e)
 
 - `/Homepage`: Who you are, what you do,Tech Stack, your latest GitHub Repositories and Contact section
 - `/About` : Who you are, what is your Tech Stack and little story
@@ -42,7 +42,7 @@ In the end, I settled for Next.js, Tailwind, and Typescript.
 
 ### Folder structure
 
-![folder structure](/public/blogImg/folder.PNG)
+![folder](https://github.com/Vishal101022/portfolio-website/assets/13450751/e6e7fa90-215a-4cc2-bf0d-6976c8ee81e9)
 
 - `/app` is where all the pages/routes reside. I've maintained this folder solely for routing purposes.
 - `/components` is where all the components reside.
@@ -69,7 +69,7 @@ export default function Dashboard({ children }: { children: React.ReactNode }) {
 ```
 ### Navbar Component
 
- ![navbar screen shot](/public/blogImg/navbar.PNG)
+![navbar](https://github.com/Vishal101022/portfolio-website/assets/13450751/e5816a8d-fece-48f2-8d18-6b9a3f96b7b0)
 
 The Navbar is quite straightforward. It's a `flex layout` comprising three flex items: the brand container, navigation links container, and theme container
 
@@ -141,13 +141,13 @@ const Navbar = () => {
 
 ### Hero Section
 
-![Hero Screen Shot](/public/blogImg/hero.PNG)
+![hero](https://github.com/Vishal101022/portfolio-website/assets/13450751/b1b1527a-5195-4d79-a101-52256655e1f4)
 
 Building the hero section was an enjoyable task. Utilizing React Rough Notation for underline highlighting and implementing a call-to-action button redirecting to the about page was particularly exciting. Integrating Rough Notation is straightforward; simply encapsulate the text element within RoughNotationGroup and RoughNotation text elements.
 
 ### Projects Section
 
-![Project Screen Shot](/public/blogImg/projects.PNG)
+![projects](https://github.com/Vishal101022/portfolio-website/assets/13450751/1aaf7529-daf4-4bcc-aed4-dadaa2612bd5)
 
 Tailwind grids were employed to align the project cards. On smaller screens, the grid displays a single column layout, while on larger screens, it adjusts to a two-column layout for improved presentation and readability
 
@@ -182,7 +182,7 @@ export default function Projects() {
 
 ### Stack Section
 
-![Stack Screen Shot](/public/blogImg/stack.PNG)
+![stack](https://github.com/Vishal101022/portfolio-website/assets/13450751/fbe5b61f-0330-420d-8002-488bac8a2b49)
 
 For this section, I've implemented an infinite horizontal slider. Initially, I considered using the [marquee](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee) HTML tag, but due to its deprecation and lack of support in all browsers, I opted for a more robust solution.
 
@@ -190,7 +190,7 @@ Instead of relying on third-party dependencies, I crafted a responsive infinite 
 
 ### Latest Code
 
-![Latest Code Screen Shot](/public/blogImg/repo.png)
+![repo](https://github.com/Vishal101022/portfolio-website/assets/13450751/16bf970f-f0c4-4843-b6b2-ee80f54c1864)
 
 To fetch the latest repository, I utilized the GitHub open-source API. Upon receiving the response, I proceeded to populate the data using the `map` function.
 
@@ -229,7 +229,6 @@ return repos;
 }
 ...
 ```
-
 ---
 
 ## Challenges and Learnings:
