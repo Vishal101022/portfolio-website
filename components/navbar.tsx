@@ -3,6 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { userData } from "@/lib/data";
 import ThemeSwitch from "./themeSwitch";
+import { motion } from "framer-motion";
 
 type NavLinkProps = {
   href: string;
@@ -30,7 +31,12 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="py-10 md:py-20 ">
+    <motion.nav
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -100 }}
+      
+       className="py-10 md:py-20 ">
       <div className="flex md:flex-row justify-between items-center">
         {/* brand logo */}
         <div className="flex flex-col">
@@ -57,7 +63,7 @@ const Navbar = () => {
         <NavLink href="/projects" text="Projects" />
         <NavLink href="/experience" text="Experience" />
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 
