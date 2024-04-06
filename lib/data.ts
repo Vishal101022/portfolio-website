@@ -8,7 +8,7 @@ export const userData = {
   avatarUrl: "/images/avtar.jpg",
   email: "raivishal939@gmail.com",
   phone: "",
-  address: "Ranchi, India",
+  address: "Delhi, India",
   resumeUrl: "",
   socialLinks: {
     twitter: "https://twitter.com/raivishal939",
