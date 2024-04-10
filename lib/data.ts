@@ -53,7 +53,7 @@ export const experience = [
     company: "HashedBit Innovations",
     year: "2024",
     companyLink: "https://hashedbit.com/",
-    desc: "Writing API in ExpressJS and Creating UI in ReactJS",
+    desc: "Developing APIs using Express.js, building the UI with React.js, and managing the database with MySQL",
   },
   {
     title: "MCA",
