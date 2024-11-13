@@ -12,31 +12,24 @@ export default function RecentProjects() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
             <div>
               <Card
-                title="SkillBlend-LMS"
-                description="A full stack web application that helps users to create and manage courses, access learning materials, track progress on their dashboard,making it a valuable tool for educators and learners."
-                imgUrl="/images/p1.png"
-                link="https://skill-blend-lms.vercel.app/"
-                github="https://github.com/Vishal101022/SkillBlend-LMS"
+                title="Expense Tracker"
+                description="A simple expense tracker app to track your expenses."
+                imgUrl="/images/expense.png"
+                link="https://expense-tracker-ten12.vercel.app/"
+                github="https://github.com/Vishal101022/full_stack_expense_app"
                 techStack={[
-                  "React",
-                  "Tailwind",
-                  "NextJs",
-                  "MongoDB",
-                  "Stripe",
-                  "Prisma",
+                  "Node",
+                  "Express",
+                  "SQL",
+                  "API",
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
+                  "Sequelize",
                 ]}
               />
             </div>
-            <div>
-              <Card
-                title="KATHAK ARTIST WEBSITE"
-                description="sleek and minimalistic website with a harmonious color palette"
-                imgUrl="/images/p2.png"
-                link="https://rahulkathak.com/"
-                github="https://github.com/Vishal101022/Rahul-kathak-artist"
-                techStack={["Html", "CSS", "JavaScript", "Bootstrap"]}
-              />
-            </div>
+            <div></div>
           </div>
           <div className="flex justify-center pt-5">
             {/* button */}
