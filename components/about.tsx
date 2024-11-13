@@ -89,13 +89,7 @@ export default function About() {
               Corona pandemic. It made me rethink my path, leading me to pursue
               an{" "}
               <span className="underline decoration-sky-500">MCA degree</span>.
-              {" "}
-              However, my initial aspirations in{" "}
-              <span className="underline decoration-wavy decoration-red-500">
-                software engineering
-              </span>{" "}
-              hit a roadblock when I found DSA less enjoyable.
-              <br />
+            
               <br />
               During a summer break, I decided to try something new and signed
               up for the FreeCodeCamp{" "}
