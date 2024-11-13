@@ -19,7 +19,7 @@ export const userData = {
 
 export const about = [
   {
-    techStack: [{ name: "JavaScript" }, { name: "React" }],
+    techStack: [{ name: "JavaScript" }, { name: "Node" }, {name: "Express"}, {name: "SQL"}, {name: "API"}],
     summary: "",
   },
 ] as const;
@@ -37,14 +37,14 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Kathak Artist Website",
+    title: "Expense Tracker",
     description:
-      "sleek and minimalistic website with a harmonious color palette",
-    imgUrl: "/images/p2.png",
-    techStack: ["Html", "Css", "JavaScript", "Bootstrap"],
-    link: "https://rahulkathak.com/",
-    github: "https://github.com/Vishal101022/",
-  },
+      "A simple expense tracker app to track your expenses.",
+    imgUrl: "/images/expense.png",
+    techStack: ["Node", "Express", "SQL", "API", "JavaScript", "HTML", "CSS", "Sequelize"],
+    link: "https://expense-tracker-ten12.vercel.app/",
+    github: "https://github.com/Vishal101022/full_stack_expense_app",
+  }
 ] as const;
 
 export const experience = [
