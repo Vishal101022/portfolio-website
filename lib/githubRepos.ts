@@ -32,7 +32,7 @@ async function GetRepos(): Promise<Repository[]> {
       pushed_at: repo.pushed_at,
     }))
     .filter(
-      (repo: Repository) => new Date(repo.pushed_at) > new Date("2023-11-01")
+      (repo: Repository) => new Date(repo.pushed_at) > new Date("2024-08-01")
     );
   return repos;
 }
