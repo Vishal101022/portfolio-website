@@ -15,7 +15,7 @@ export default function RecentProjects() {
                 title="Expense Tracker"
                 description="A simple expense tracker app to track your expenses."
                 imgUrl="/images/expense.png"
-                link="https://expense-tracker-ten12.vercel.app/"
+                link="https://github.com/Vishal101022/full_stack_expense_app"
                 github="https://github.com/Vishal101022/full_stack_expense_app"
                 techStack={[
                   "Node",
@@ -26,6 +26,25 @@ export default function RecentProjects() {
                   "HTML",
                   "CSS",
                   "Sequelize",
+                ]}
+              />
+            </div>
+            <div>
+              <Card
+                title="Group Chat App"
+                description="Real-time group chat app to chat with your friends."
+                imgUrl="/images/chat.png"
+                link="https://github.com/Vishal101022/group_chat_app"
+                github="https://github.com/Vishal101022/group_chat_app"
+                techStack={[
+                  "Node",
+                  "Express",
+                  "SQL",
+                  "Socket.io",
+                  "API",
+                  "JavaScript",
+                  "HTML",
+                  "CSS",
                 ]}
               />
             </div>
