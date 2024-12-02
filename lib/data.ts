@@ -1,3 +1,5 @@
+import { group } from "console";
+
 export const userData = {
   name: "Vishal Kumar",
   handle: "@Vishal101022",
@@ -32,19 +34,45 @@ export const projects = [
       "A full stack web application that helps users to create and manage courses, access learning materials, track progress on their dashboard,making it a valuable tool for educators and learners.",
     imgUrl: "/images/p1.png",
     techStack: ["React", "Tailwind", "NextJs", "MongoDB", "Stripe", "Prisma"],
-    link: "https://skill-blend-lms.vercel.app/",
+    link: "https://github.com/Vishal101022/SkillBlend-LMS",
     github: "https://github.com/Vishal101022/SkillBlend-LMS",
   },
   {
     id: 2,
     title: "Expense Tracker",
-    description:
-      "A simple expense tracker app to track your expenses.",
+    description: "Full-Stack expense tracker app to track your expenses.",
     imgUrl: "/images/expense.png",
-    techStack: ["Node", "Express", "SQL", "API", "JavaScript", "HTML", "CSS", "Sequelize"],
-    link: "https://expense-tracker-ten12.vercel.app/",
+    techStack: [
+      "Node",
+      "Express",
+      "SQL",
+      "API",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Sequelize",
+    ],
+    link: "https://github.com/Vishal101022/full_stack_expense_app",
     github: "https://github.com/Vishal101022/full_stack_expense_app",
-  }
+  },
+  {
+    id: 3,
+    title: "Group Chat",
+    description: "Real time group chat app.",
+    imgUrl: "/images/chat.png",
+    techStack: [
+      "Node",
+      "Express",
+      "Socket.io",
+      "API",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Sequelize",
+    ],
+    link: "https://github.com/Vishal101022/group_chat_app",
+    github: "https://github.com/Vishal101022/group_chat_app",
+  },
 ] as const;
 
 export const experience = [
