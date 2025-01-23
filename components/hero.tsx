@@ -1,6 +1,7 @@
 import { userData } from "@/lib/data";
 import Button from "./ui/button";
 import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import Link from "next/link";
 export default function Hero() {
   return (
     <section>
@@ -22,6 +23,8 @@ export default function Hero() {
             </RoughNotationGroup>
           </p>
           <Button text={"More about Me"} url={"/about"} />
+          <span className="mx-2"></span>
+          <Link href={userData.resumeUrl} target="_blank" className="underline ">My Resume</Link>
           <span className="mx-2"></span>
         </div>
       </div>
