@@ -10,8 +10,8 @@ export const userData = {
   avatarUrl: "/images/avtar.jpg",
   email: "raivishal939@gmail.com",
   phone: "",
-  address: "Delhi, India",
-  resumeUrl: "",
+  address: "Ranchi, India",
+  resumeUrl: "https://vishal101022.github.io/resume-ui/",
   socialLinks: {
     twitter: "https://twitter.com/raivishal939",
     linkedin: "https://www.linkedin.com/in/vishal101022/",
@@ -43,7 +43,7 @@ export const projects = [
     description: "Full-Stack expense tracker app to track your expenses.",
     imgUrl: "/images/expense.png",
     techStack: [
-      "Node",
+      "Php",
       "Express",
       "SQL",
       "API",
