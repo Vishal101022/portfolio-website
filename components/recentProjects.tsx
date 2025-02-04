@@ -26,6 +26,7 @@ export default function RecentProjects() {
                   "HTML",
                   "CSS",
                   "Sequelize",
+                  "AWS"
                 ]}
               />
             </div>
