@@ -13,7 +13,7 @@ export default function RecentProjects() {
             <div>
               <Card
                 title="Expense Tracker"
-                description="A simple expense tracker app to track your expenses."
+                description="A full-stack expense tracker app to track your expenses."
                 imgUrl="/images/expense.png"
                 link="https://github.com/Vishal101022/full_stack_expense_app"
                 github="https://github.com/Vishal101022/full_stack_expense_app"
