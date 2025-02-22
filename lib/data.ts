@@ -1,16 +1,17 @@
 import { group } from "console";
+import { title } from "process";
 
 export const userData = {
   name: "Vishal Kumar",
   handle: "@Vishal101022",
   firstName: "Vishal",
   title: "Hi there, I’m",
-  designation: "Web Developer",
+  designation: "Software Developer",
   availability: true,
   avatarUrl: "/images/avtar.jpg",
   email: "raivishal939@gmail.com",
   phone: "",
-  address: "Ranchi, India",
+  address: "Bengaluru , India",
   resumeUrl: "https://vishal101022.github.io/resume-ui/",
   socialLinks: {
     twitter: "https://twitter.com/raivishal939",
@@ -21,7 +22,7 @@ export const userData = {
 
 export const about = [
   {
-    techStack: [{ name: "JavaScript" }, { name: "Node" }, {name: "Express"}, {name: "SQL"}, {name: "API"}],
+    techStack: [{ name: "JavaScript" }],
     summary: "",
   },
 ] as const;
@@ -76,6 +77,19 @@ export const projects = [
 ] as const;
 
 export const experience = [
+  {
+    title: "Software Developer",
+    company: "(mVerve) - a MobiGnosis Technology Company",
+    year: "2025",
+    companyLink: "https://mverve.com/",
+  },
+  {
+    title: "Software Developer",
+    company: "Luezoid Technologies",
+    year: "2024",
+    companyLink: "https://luezoid.com/",
+    desc: "Exhibited expertise in project development and delivering on time. Engaged in the development process and collaborated effectively with the team",
+  },
   {
     title: "Internship",
     company: "HashedBit Innovations",
