@@ -82,6 +82,7 @@ export const experience = [
     company: "(mVerve) - a MobiGnosis Technology Company",
     year: "2025",
     companyLink: "https://mverve.com/",
+    desc: "",
   },
   {
     title: "Software Developer",
