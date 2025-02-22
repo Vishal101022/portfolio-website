@@ -17,14 +17,22 @@ export default function Hero() {
           <p className="text-2xl font-bold text-gray-600 dark:text-gray-300 py-5">
             <RoughNotationGroup show={true}>
               I’m a{" "}
-              <RoughNotation type="underline">web developer</RoughNotation> who
-              loves building things with{" "}
+              <RoughNotation type="underline">
+                {userData.designation}
+              </RoughNotation>{" "}
+              who loves building things with{" "}
               <RoughNotation type="underline">code</RoughNotation>.
             </RoughNotationGroup>
           </p>
           <Button text={"More about Me"} url={"/about"} />
           <span className="mx-2"></span>
-          <Link href={userData.resumeUrl} target="_blank" className="underline ">My Resume</Link>
+          <Link
+            href={userData.resumeUrl}
+            target="_blank"
+            className="underline "
+          >
+            My Resume
+          </Link>
           <span className="mx-2"></span>
         </div>
       </div>
